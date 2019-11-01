@@ -1,0 +1,77 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: "Roboto", sans-serif;
+
+}
+
+.container {
+   max-height: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 3rem;
+   display: flex;
+
+}
+
+.burger-link {
+    text-decoration: none;
+
+}
+
+.logo {
+    padding: 0 0 0 80px;
+    width: 260px;
+    height: 60px;
+    position: absolute;
+    display: flex;
+    top: 0;
+}
+
+.video {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+
+}
+
+.photo-container {
+    overflow: hidden;
+    max-height: 640px;
+    position: relative;
+}
+
+.header-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.header-text {
+
+    font-size: 2vw;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+.content-container {
+    display: flex;
+    height: 100vh;
+
+}
